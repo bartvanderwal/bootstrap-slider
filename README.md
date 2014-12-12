@@ -1,8 +1,8 @@
 bootstrap-slider [![Build Status](https://travis-ci.org/seiyria/bootstrap-slider.png?branch=master)](https://travis-ci.org/seiyria/bootstrap-slider)
 ================
-Originally began as a loose "fork" of bootstrap-slider found on http://www.eyecon.ro/ by Stefan Petre.
+Originally began as a loose "fork" of bootstrap-slider found on http://www.eyecon.ro by Stefan Petre.
 
-Over time, this project has diverged sigfinicantly from Stefan Petre's version and is now almost completly different.
+Over time this project has diverged significantly from Stefan Petre's version and is now almost completly different.
 
 __Please ensure that you are using this library instead of the Petre version before creating issues in the repository Issue tracker!!__
 
@@ -33,7 +33,7 @@ You can see all of our API examples [here](http://seiyria.github.io/bootstrap-sl
 Using bootstrap-slider (with JQuery)
 ======================
 
-Create an input element and call .slider() on it:
+Create an input element and call `.slider()` on it:
 
 ```js
 // Instantiate a slider
@@ -50,7 +50,7 @@ var value = mySlider.slider('getValue');
 
 If there is already a JQuery plugin named _slider_ bound to the namespace, then this plugin will take on the alternate namespace _bootstrapSlider_.
 
-```
+```js
 // Instantiate a slider
 var mySlider = $("input.slider").bootstrapSlider();
 
